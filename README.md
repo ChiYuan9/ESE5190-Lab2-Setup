@@ -25,3 +25,6 @@ Setup environment: 2019 MacBook Air 13-inch, MacOS Monterey 12.6
           $ cd ..
           $ git clone -b master https://github.com/raspberrypi/pico-examples.git
 
+## 5. Download Visual Studio Code
+https://code.visualstudio.com/download
+
