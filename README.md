@@ -28,7 +28,7 @@ Setup environment: 2019 MacBook Air 13-inch, MacOS Monterey 12.6
 ## 5. Download Visual Studio Code
 https://code.visualstudio.com/download
 
-## 6. Install CMake Tools in VSC
+## 6. Install CMake Tools in VSCode
 Type Cmd+shift+X and search for "CMake Tools";<br>
 Click on the entry in the list;<br>
 Click on the install button;<br>
@@ -56,3 +56,12 @@ Scroll down to " Cmake: Generator: and enter " Unix Makefiles" into the box;<br>
 Go to the File menu and click on "Add Folder to Workspace..." and navigate to pico-examples repo and click "Okay";<br>
 Select "GCC for arm-none-eabi" for compiler";<br>
 <img width="1023" alt="image" src="https://user-images.githubusercontent.com/108168201/195749973-35d15a77-5af1-4be9-acc7-dc00752f48c0.png">
+
+##9. Problem Solving
+Problem:<br>
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/108168201/195751067-80d19585-4c26-4318-8e56-9c4952e63705.png">
+
+Solution:<br>
+Setting an environment variable through CMake tools in VSCode;<br>
+<img width="473" alt="image" src="https://user-images.githubusercontent.com/108168201/195751452-3a066b57-89c9-4a53-9f8f-f689cf73c6ab.png">
+<img width="462" alt="image" src="https://user-images.githubusercontent.com/108168201/195751495-c4e87746-d1cb-4240-9ac7-f2be473db08c.png">
