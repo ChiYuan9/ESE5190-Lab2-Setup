@@ -94,3 +94,17 @@ Amongst other targets, we have now built:<br>
 • usb/hello_usb.elf, which is used by the debugger<br>
 • usb/hello_usb.uf2, which can be dragged onto the RP2040 USB Mass Storage Device (USB serial binary)<br>
 Where hello_serial directs stdio to UART0 on pins GP0 and GP1, and hello_usb directs stdio to USB CDC serial.<br>
+
+
+## 11. Flash and run "Hello World"
+Connect the laptop to Raspberry Pi using a micro-USB cable;<br>
+Hold down the "root" button and press "reset" button at the same time;<br>
+Push "hello_usb.uf2" in Raspberry Pi;<br>
+Enter the console:
+
+     $ ls /dev/tty.*
+     $ screen /dev/tty.board_name 115200
+     
+ "Hello World!" appears in the console:
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/108168201/195757044-e406ab11-2849-40bb-8d7e-9c93688072b2.png">
+
