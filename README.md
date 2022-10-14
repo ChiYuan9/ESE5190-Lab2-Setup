@@ -32,3 +32,4 @@ https://code.visualstudio.com/download
 Type Cmd+shift+X and search for "CMake Tools";<br>
 Click on the entry in the list;<br>
 Click on the install button;<br>
+<img width="1025" alt="image" src="https://user-images.githubusercontent.com/108168201/195746036-5498c639-0f64-448c-b749-fc2eab02acb7.png">
