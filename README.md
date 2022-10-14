@@ -28,3 +28,7 @@ Setup environment: 2019 MacBook Air 13-inch, MacOS Monterey 12.6
 ## 5. Download Visual Studio Code
 https://code.visualstudio.com/download
 
+## 6. Install CMake Tools in VSC
+Type Cmd+shift+X and search for "CMake Tools";
+Click on the entry in the list;
+Click on the install button;
