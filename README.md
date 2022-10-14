@@ -52,3 +52,7 @@ Click on the "Extensions" and "CMake Tools configuration";<br>
 Scroll down to " Cmake: Generator: and enter " Unix Makefiles" into the box;<br>
 <img width="1023" alt="image" src="https://user-images.githubusercontent.com/108168201/195748545-9f13a2a6-9b3d-4883-a9f0-09a82742f235.png">
 
+## 8. Add folder to workspace and choose a compiler
+Go to the File menu and click on "Add Folder to Workspace..." and navigate to pico-examples repo and click "Okay";<br>
+Select "GCC for arm-none-eabi" for compiler";<br>
+<img width="1023" alt="image" src="https://user-images.githubusercontent.com/108168201/195749973-35d15a77-5af1-4be9-acc7-dc00752f48c0.png">
