@@ -87,3 +87,10 @@ Change directory into the "hello_world" directory inside the "pico-examples/buil
      $ cd hello_world
      $ make -j4
 <img width="573" alt="image" src="https://user-images.githubusercontent.com/108168201/195754127-454cdb58-9dd4-4fc8-878d-76a011930b63.png">
+This will build two separate examples programs in the "hello_world/serial/" and "hello_world/usb/" directories;<br>
+Amongst other targets, we have now built:<br>
+• serial/hello_serial.elf, which is used by the debugger<br>
+• serial/hello_serial.uf2, which can be dragged onto the RP2040 USB Mass Storage Device (UART serial binary)<br>
+• usb/hello_usb.elf, which is used by the debugger<br>
+• usb/hello_usb.uf2, which can be dragged onto the RP2040 USB Mass Storage Device (USB serial binary)<br>
+Where hello_serial directs stdio to UART0 on pins GP0 and GP1, and hello_usb directs stdio to USB CDC serial.<br>
