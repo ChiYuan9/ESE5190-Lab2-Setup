@@ -17,5 +17,11 @@ Setup environment: 2019 MacBook Air 13-inch, MacOS Monterey 12.6
      Cd Document
      Mdkir pico
      Cd pico
-![image](https://user-images.githubusercontent.com/108168201/195744878-fe9a6e6b-2f50-4154-ade6-2404e866e64b.png)
+     
+## 4. Clone Pico-sdk and Pico-examples
+          $ git clone -b master https://github.com/raspberrypi/pico-sdk.git
+          $ cd pico-sdk
+          $ git submodule update --init
+          $ cd ..
+          $ git clone -b master https://github.com/raspberrypi/pico-examples.git
 
