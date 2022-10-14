@@ -29,6 +29,6 @@ Setup environment: 2019 MacBook Air 13-inch, MacOS Monterey 12.6
 https://code.visualstudio.com/download
 
 ## 6. Install CMake Tools in VSC
-Type Cmd+shift+X and search for "CMake Tools";
-Click on the entry in the list;
-Click on the install button;
+Type Cmd+shift+X and search for "CMake Tools";<br>
+Click on the entry in the list;<br>
+Click on the install button;<br>
