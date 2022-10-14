@@ -105,6 +105,6 @@ Enter the console:
      $ ls /dev/tty.*
      $ screen /dev/tty.board_name 115200
      
- "Hello World!" appears in the console:
+ "Hello World!" appears in the console:<br>
 <img width="569" alt="image" src="https://user-images.githubusercontent.com/108168201/195757044-e406ab11-2849-40bb-8d7e-9c93688072b2.png">
 
