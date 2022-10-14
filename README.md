@@ -1,9 +1,9 @@
 # ESE5190-Lab2-Setup
 Name: Yuan Chi
 
-Setup environment: 2019 MacBook Air 13-inch, MacOS Monterey 12.6
-Processor: 1.6 GHz Intel Core i5
-Memory: 8 GB 2133 MHz LPDDR3
+Setup environment: 2019 MacBook Air 13-inch, MacOS Monterey 12.6<br>
+Processor: 1.6 GHz Intel Core i5<br>
+Memory: 8 GB 2133 MHz LPDDR3<br>
 
 ## 1. Install Homebrew
      $ /bin/bash -c "$(curl -fsSL
