@@ -80,9 +80,5 @@ Set the Pico_SDK_PATH (If clone pico-sdk and pico-examples repositories into the
 Prepare cmake build directory by running cmake..:
 
      $ cmake ..
-     Using PICO_SDK_PATH from environment ('../../pico-sdk')
-     PICO_SDK_PATH is /home/pi/pico/pico-sdk
-     .
-     .
-     .
-     -- Build files have been written to: /home/pi/pico/pico-examples/build
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/108168201/195753688-0aa2aada-54a7-4064-894b-2a0ff7c394cd.png">
+
