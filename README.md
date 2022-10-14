@@ -82,3 +82,8 @@ Prepare cmake build directory by running cmake..:
      $ cmake ..
 <img width="571" alt="image" src="https://user-images.githubusercontent.com/108168201/195753688-0aa2aada-54a7-4064-894b-2a0ff7c394cd.png">
 
+Change directory into the "hello_world" directory inside the "pico-examples/build" tree, and run make:
+
+     $ cd hello_world
+     $ make -j4
+<img width="573" alt="image" src="https://user-images.githubusercontent.com/108168201/195754127-454cdb58-9dd4-4fc8-878d-76a011930b63.png">
