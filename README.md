@@ -67,7 +67,22 @@ Setting an environment variable through CMake tools in VSCode;<br>
 <img width="462" alt="image" src="https://user-images.githubusercontent.com/108168201/195751495-c4e87746-d1cb-4240-9ac7-f2be473db08c.png">
 
 ## 10.Build "Hello World"
-Cd into pico-examples and create a build directory
-          $ cd pico-examples
-          $ mkdir build
-          $ cd build
+Cd into pico-examples and create a build directory:<br>
+
+     $ cd pico-examples
+     $ mkdir build
+     $ cd build
+     
+Set the Pico_SDK_PATH (If clone pico-sdk and pico-examples repositories into the same directory side-by-side):
+
+      $ export PICO_SDK_PATH=../../pico-sdk
+      
+Prepare cmake build directory by running cmake..:
+
+     $ cmake ..
+     Using PICO_SDK_PATH from environment ('../../pico-sdk')
+     PICO_SDK_PATH is /home/pi/pico/pico-sdk
+     .
+     .
+     .
+     -- Build files have been written to: /home/pi/pico/pico-examples/build
