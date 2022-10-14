@@ -37,6 +37,7 @@ Click on the install button;<br>
 ## 7. Set the Pico_SDK_PATH environment virable
 Navigate to the pico-examples directory;<br>
 Create a .vscode directory and add a file called settings.json;<br>
+Copy these lines to settings.json;<br>
 
      {
      "cmake.environment": {
@@ -45,10 +46,9 @@ Create a .vscode directory and add a file called settings.json;<br>
      "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
      }
      
-Copy the lines above in settings.json;<br>
 
 Click on the Cog Wheel at the bottom of the navigation bar on the left-hand side of the interface and select "Settings";<br>
-Click on the "Extensions" and "CMake Tools configuration";
+Click on the "Extensions" and "CMake Tools configuration";<br>
 Scroll down to " Cmake: Generator: and enter " Unix Makefiles" into the box;<br>
 <img width="1023" alt="image" src="https://user-images.githubusercontent.com/108168201/195748545-9f13a2a6-9b3d-4883-a9f0-09a82742f235.png">
 
